@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcul des impôts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>Calcul des impôts sur le revenus 2020</h1>
+    </div>
+    <div class="wrapper">
+        <label for="">Nombre d'enfants</label>
+        <select name=""class="nbChild" id="">
+            <option value="1">0</option>
+            <option value="0.5">1</option>
+            <option value="1">2</option>
+            <option value="1.5">3</option>
+            <option value="2">4</option>
+            <option value="2.5">5</option>
+            <option value="3">6</option>
+            <option value="3.5">7</option>
+            <option value="4">8</option>
+            <option value="4.5">9</option>
+            <option value="5">10</option>
+        </select>
+        <label for="">Etes-vous marié ?</label>
+        <select name="" class="married" id="">
+            <option value="no">non</option>
+            <option value="yes">oui</option>
+        </select>
+        <label for="">Vos revenus</label>
+        <div class="wrap">
+            <input type="text" name="revenus" class="revenus" value=""><span class="Euro">€</span>
+        </div>
+        <label for="">Impôt(la douloureuse)</label>
+        <div class="wrap">
+            <input type="text" name="impot" class="impot" value=""><span class="Euro">€</span>
+        </div>
+        <label for="">Après passage de la faucheuse</label>
+        <div class="wrap">
+            <input type="text" name="reste" class="reste" value=""><span class="Euro">€</span>
+        </div>
+        <input type="button" id="button" onclick="afficher()" value="calculer">
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

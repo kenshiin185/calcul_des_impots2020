@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bolder;
+}
+.wrapper{
+    display:flex;
+    flex-direction: column;
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 15%;
+}
+body{
+    background: linear-gradient(to right, #1f33aa, #f7f8f6, #ee1111);
+}
+input{
+    margin-bottom: 10%;
+}
+.Euro{
+    font-size: 2em;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+    background: linear-gradient(to right, #1f33aa, #2c5983, #8a84e0);
+    color: bisque;
+    border-bottom-style: groove;
+}
